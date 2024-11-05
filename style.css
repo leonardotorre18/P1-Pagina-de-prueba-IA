@@ -1,25 +1,37 @@
 /*Seteo de estilos*/
 * {
-   box-sizing: border-box;
-   margin: unset;
-   padding: unset;
-   border: unset;
-   outline: unset; 
+    box-sizing: border-box;
+    margin: unset;
+    padding: unset;
+    border: unset;
+    outline: unset;
 
-   list-style: none;
-   text-decoration: none;
+    list-style: none;
+    text-decoration: none;
 
-   font-size: 16px;
-   font-family: Arial;
-   font-weight: 400;
+    font-size: 16px;
+    font-family: Arial;
+    font-weight: 400;
+}
+
+body {
+    background-color: #070F26;
 }
 
 /*---------- Navbar---------*/
+.conf-navbar {
+    padding: 20px 30px;
+}
+
+.navbar {
+    background-color: rgba(242, 230, 223, .1);
+    border-radius: 30px;
+}
 
 .navbar__nav {
-display: flex;
-justify-content: space-between;
-align-items: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .navbar__nav__list {
@@ -27,31 +39,35 @@ align-items: center;
     align-items: center;
     gap: 80px;
 }
+.navbar__nav__list li {
+    text-transform: uppercase;
+    color: #F2E6DF;
+}
 
 /*-----------Jumbotron------------*/
 
 .jumbotrom h1 {
-padding: 80px 0;
-text-align: center;
-font-size: 3.75rem;
-font-weight: 700;
-background-image: url(/assets/foto\ de\ fondo\ Jumbo.jpg);
-background-size: cover;
-background-position: center;
+    padding: 80px 0;
+    text-align: center;
+    font-size: 3.75rem;
+    font-weight: 700;
+    background-image: url(/assets/foto\ de\ fondo\ Jumbo.jpg);
+    background-size: cover;
+    background-position: center;
 }
 
 /*------------Seccion de informacion-------*/
 
-.seccion_de_informacion{
+.seccion_de_informacion {
     display: flex;
 }
 
-.imagen_vertical{
+.imagen_vertical {
     width: 345px;
     height: 646px;
 }
 
-.imagen_horizontal{
+.imagen_horizontal {
     width: 1048px;
     height: 306px;
 }
