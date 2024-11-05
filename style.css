@@ -14,9 +14,6 @@
    font-weight: 400;
 }
 
-
-
-
 /*---------- Navbar---------*/
 
 .navbar__nav {
@@ -30,6 +27,7 @@ align-items: center;
     align-items: center;
     gap: 80px;
 }
+
 /*-----------Jumbotron------------*/
 
 .jumbotrom h1 {
@@ -40,4 +38,20 @@ font-weight: 700;
 background-image: url(/assets/foto\ de\ fondo\ Jumbo.jpg);
 background-size: cover;
 background-position: center;
+}
+
+/*------------Seccion de informacion-------*/
+
+.seccion_de_informacion{
+    display: flex;
+}
+
+.imagen_vertical{
+    width: 345px;
+    height: 646px;
+}
+
+.imagen_horizontal{
+    width: 1048px;
+    height: 306px;
 }
